@@ -40,7 +40,7 @@
 
 (defn move-left [world]
   (mod (dec (:location (:bus world)))
-       (count (:stops world)))))
+       (count (:stops world))))
 
 (defn move-stay [world]
   world)
