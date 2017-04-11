@@ -61,5 +61,9 @@
         (recur (update-world world new-location) (dec num-steps)))
       world)))
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Testing different strategies
 
-#_(main world strategy-random 4)
+#_(main world strategy-random 34)
+#_(main world move-left 3)
+#_(main world move-right 17)
