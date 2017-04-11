@@ -43,7 +43,7 @@
        (count (:stops world))))
 
 (defn move-stay [world]
-  world)
+  (:location (:bus world)))
 
 (defn strategy-random [world]
   (let [rand-num (rand-int 3)]
